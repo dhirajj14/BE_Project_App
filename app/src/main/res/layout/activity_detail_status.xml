@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/background_gradient"
+    tools:context=".Worker_menu">
+
+    <TextView
+        android:id="@+id/detail_heading"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#11998e"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:background="@drawable/heading_background"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="350dp"
+            android:id="@+id/dust_gif"
+            android:layout_height="350dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/transparent"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dust_gif_per"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="145dp"
+            android:textSize="35dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/emptydustbin_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/linear1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/sf_ui_display_semibold"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Empty Dustbin"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color"
+        android:textSize="18dp" />
+
+</LinearLayout>
