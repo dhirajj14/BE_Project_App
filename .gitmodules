@@ -1,0 +1,6 @@
+[submodule "BE_Project_App"]
+	path = BE_Project_App
+	url = https://github.com/dhirajj14/BE_Project_App.git
+[submodule "Smart_Dustbin_Android_Application"]
+	path = Smart_Dustbin_Android_Application
+	url = https://github.com/dhirajj14/Smart_Dustbin_Android_Application.git
